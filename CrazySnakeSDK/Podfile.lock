@@ -1,0 +1,116 @@
+PODS:
+  - Adjust (4.33.6):
+    - Adjust/Core (= 4.33.6)
+  - Adjust/Core (4.33.6)
+  - Alamofire (5.6.4)
+  - BigInt (5.2.0)
+  - CryptoSwift (1.5.1)
+  - DZNEmptyDataSet (1.8.1)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookShare (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKShareKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKShareKit (5.15.1):
+    - FBSDKShareKit/Share (= 5.15.1)
+  - FBSDKShareKit/Share (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManager (6.5.16)
+  - JXSegmentedView (1.3.0)
+  - Kingfisher (7.9.1)
+  - MJRefresh (3.1.15.7)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - secp256k1.c (0.1.2)
+  - SnapKit (5.0.1)
+  - Starscream (4.0.4)
+  - SwiftyAttributes (5.4.0)
+  - SwiftyJSON (5.0.1)
+  - web3swift (2.6.6):
+    - BigInt (= 5.2.0)
+    - CryptoSwift (= 1.5.1)
+    - PromiseKit (= 6.15.3)
+    - secp256k1.c (= 0.1.2)
+    - Starscream (= 4.0.4)
+
+DEPENDENCIES:
+  - Adjust (~> 4.33.3)
+  - Alamofire (= 5.6.4)
+  - DZNEmptyDataSet
+  - FacebookCore
+  - FacebookShare
+  - HandyJSON
+  - IQKeyboardManager
+  - JXSegmentedView
+  - Kingfisher
+  - MJRefresh (= 3.1.15.7)
+  - SnapKit (= 5.0.1)
+  - SwiftyAttributes
+  - SwiftyJSON
+  - web3swift (= 2.6.6)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - Alamofire
+    - BigInt
+    - CryptoSwift
+    - DZNEmptyDataSet
+    - FacebookCore
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKShareKit
+    - HandyJSON
+    - IQKeyboardManager
+    - JXSegmentedView
+    - Kingfisher
+    - MJRefresh
+    - PromiseKit
+    - secp256k1.c
+    - SnapKit
+    - Starscream
+    - SwiftyAttributes
+    - SwiftyJSON
+    - web3swift
+
+SPEC CHECKSUMS:
+  Adjust: c3b6c3734928a617fefce81dc223fd5f104162be
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookShare: 85968ad1b1606c4944fb154924e425fd29184ea5
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManager: 024b54d7dcb765c5bc99882cb4d5ea24a8cb7c3c
+  JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftyAttributes: 45fae22b22a246a0b7f0a8d2157a02bf89fb2e9a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  web3swift: bee1e0550e43f1369dc9f34d5a01f537284c9e9a
+
+PODFILE CHECKSUM: f4dcffe8bda879e7aba21dbe0c1d9a25c46fbcd2
+
+COCOAPODS: 1.12.1

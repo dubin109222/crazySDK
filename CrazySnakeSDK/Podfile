@@ -1,0 +1,58 @@
+# Uncomment the next line to define a global platform for your project
+# source 'https://github.com/CocoaPods/Specs.git
+ platform :ios, '13.0'
+
+workspace 'CrazySnake.xcworkspace'
+
+def commonPods
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PadSole
+
+  pod 'Alamofire', '5.6.4'
+  pod 'web3swift', '2.6.6'
+
+  pod 'SwiftyJSON'
+  
+  # Module-UI
+  pod 'SwiftyAttributes'
+  pod 'SnapKit',"5.0.1"
+  pod 'Kingfisher'
+  pod 'SwiftyJSON'
+  pod 'MJRefresh', '3.1.15.7'
+  pod 'DZNEmptyDataSet'
+#  pod 'swiftScan'
+#  pod 'SwiftyRSA'
+#  pod 'IQKeyboardManagerSwift'
+  pod 'JXSegmentedView'
+  pod 'HandyJSON' # Json2Model
+  pod 'Adjust', '~> 4.33.3'
+
+  pod 'FacebookCore'
+  pod 'FacebookShare'
+
+
+end
+
+target 'CrazySnake' do
+    project 'CrazySnake.xcodeproj'
+    commonPods
+end
+
+target 'CSSDKOCDemo' do
+    project '../CSSDKOCDemo/CSSDKOCDemo.xcodeproj'
+    commonPods
+    pod 'IQKeyboardManager'
+end
+
+post_install do |installer|
+    installer.generated_projects.each do |project|
+          project.targets.each do |target|
+              target.build_configurations.each do |config|
+                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+               end
+          end
+   end
+end
+

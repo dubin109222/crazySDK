@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5A8A148D0639B02BAE2FF8 /* Pods_CSSDKOCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698A0BE29A71C2D00C8DB2C /* Pods_CSSDKOCDemo.framework */; };
+		8A1432302DE79AADD4981FD6 /* Pods_CSSDKOCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D30E52C49466B1CB3FBB4A /* Pods_CSSDKOCDemo.framework */; };
+		9698A30329A76AEA00C8DB2C /* OCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9698A30229A76AEA00C8DB2C /* OCTestViewController.m */; };
+		9698A30929A76E0500C8DB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9698A30729A76E0500C8DB2C /* Main.storyboard */; };
+		9698A30F29A770F700C8DB2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9698A30E29A770F700C8DB2C /* ViewController.m */; };
+		9698A32F29A7805900C8DB2C /* Support.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9698A32E29A7805900C8DB2C /* Support.bundle */; };
+		96ADE2AA29ACBA3D0087F193 /* Jost-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96ADE2A929ACBA3D0087F193 /* Jost-VariableFont_wght.ttf */; };
+		96CCD577288FA283001A4E26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD576288FA283001A4E26 /* AppDelegate.m */; };
+		96CCD582288FA285001A4E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CCD581288FA285001A4E26 /* Assets.xcassets */; };
+		96CCD585288FA285001A4E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CCD583288FA285001A4E26 /* LaunchScreen.storyboard */; };
+		96CCD588288FA285001A4E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD587288FA285001A4E26 /* main.m */; };
+		96CCD592288FA285001A4E26 /* CSSDKOCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD591288FA285001A4E26 /* CSSDKOCDemoTests.m */; };
+		96CCD59C288FA285001A4E26 /* CSSDKOCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD59B288FA285001A4E26 /* CSSDKOCDemoUITests.m */; };
+		96CCD59E288FA285001A4E26 /* CSSDKOCDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD59D288FA285001A4E26 /* CSSDKOCDemoUITestsLaunchTests.m */; };
+		96CCD5AB288FA2A9001A4E26 /* CrazySnake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CCD5AA288FA2A9001A4E26 /* CrazySnake.framework */; };
+		96CCD5AF288FA2BF001A4E26 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CCD5AE288FA2BF001A4E26 /* libswiftWebKit.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96CCD58E288FA285001A4E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CCD56A288FA283001A4E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CCD571288FA283001A4E26;
+			remoteInfo = CSSDKOCDemo;
+		};
+		96CCD598288FA285001A4E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CCD56A288FA283001A4E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CCD571288FA283001A4E26;
+			remoteInfo = CSSDKOCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D30E52C49466B1CB3FBB4A /* Pods_CSSDKOCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSDKOCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9698A0BA29A71C1600C8DB2C /* CrazySnake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrazySnake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9698A0BE29A71C2D00C8DB2C /* Pods_CSSDKOCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CSSDKOCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9698A30129A76AEA00C8DB2C /* OCTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTestViewController.h; sourceTree = "<group>"; };
+		9698A30229A76AEA00C8DB2C /* OCTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestViewController.m; sourceTree = "<group>"; };
+		9698A30829A76E0500C8DB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9698A30D29A770F700C8DB2C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9698A30E29A770F700C8DB2C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9698A32E29A7805900C8DB2C /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Support.bundle; sourceTree = "<group>"; };
+		96ADE2A929ACBA3D0087F193 /* Jost-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		96CCD572288FA283001A4E26 /* CSSDKOCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSDKOCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CCD575288FA283001A4E26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96CCD576288FA283001A4E26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96CCD581288FA285001A4E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CCD584288FA285001A4E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96CCD586288FA285001A4E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CCD587288FA285001A4E26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96CCD58D288FA285001A4E26 /* CSSDKOCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSDKOCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CCD591288FA285001A4E26 /* CSSDKOCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSDKOCDemoTests.m; sourceTree = "<group>"; };
+		96CCD597288FA285001A4E26 /* CSSDKOCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSDKOCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CCD59B288FA285001A4E26 /* CSSDKOCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSDKOCDemoUITests.m; sourceTree = "<group>"; };
+		96CCD59D288FA285001A4E26 /* CSSDKOCDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSDKOCDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		96CCD5AA288FA2A9001A4E26 /* CrazySnake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CrazySnake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CCD5AE288FA2BF001A4E26 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
+		9839B3B42A6FDAA000F5D546 /* CSSDKOCDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CSSDKOCDemo.entitlements; sourceTree = "<group>"; };
+		CCA72CD40E8B18CBD0EE6E11 /* Pods-CSSDKOCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSDKOCDemo.debug.xcconfig"; path = "Target Support Files/Pods-CSSDKOCDemo/Pods-CSSDKOCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F206E8BEBA8CB84C40AA5CAF /* Pods-CSSDKOCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSDKOCDemo.release.xcconfig"; path = "Target Support Files/Pods-CSSDKOCDemo/Pods-CSSDKOCDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CCD56F288FA283001A4E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CCD5AF288FA2BF001A4E26 /* libswiftWebKit.tbd in Frameworks */,
+				8A1432302DE79AADD4981FD6 /* Pods_CSSDKOCDemo.framework in Frameworks */,
+				96CCD5AB288FA2A9001A4E26 /* CrazySnake.framework in Frameworks */,
+				7E5A8A148D0639B02BAE2FF8 /* Pods_CSSDKOCDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CCD58A288FA285001A4E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CCD594288FA285001A4E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B36B55AC8056C7096D50F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9698A0BE29A71C2D00C8DB2C /* Pods_CSSDKOCDemo.framework */,
+				9698A0BA29A71C1600C8DB2C /* CrazySnake.framework */,
+				96CCD5AE288FA2BF001A4E26 /* libswiftWebKit.tbd */,
+				96CCD5AA288FA2A9001A4E26 /* CrazySnake.framework */,
+				84D30E52C49466B1CB3FBB4A /* Pods_CSSDKOCDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96CCD569288FA283001A4E26 = {
+			isa = PBXGroup;
+			children = (
+				96CCD574288FA283001A4E26 /* CSSDKOCDemo */,
+				96CCD590288FA285001A4E26 /* CSSDKOCDemoTests */,
+				96CCD59A288FA285001A4E26 /* CSSDKOCDemoUITests */,
+				96CCD573288FA283001A4E26 /* Products */,
+				E612D3DBE3E2F027CFAAED2A /* Pods */,
+				73B36B55AC8056C7096D50F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96CCD573288FA283001A4E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CCD572288FA283001A4E26 /* CSSDKOCDemo.app */,
+				96CCD58D288FA285001A4E26 /* CSSDKOCDemoTests.xctest */,
+				96CCD597288FA285001A4E26 /* CSSDKOCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CCD574288FA283001A4E26 /* CSSDKOCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9839B3B42A6FDAA000F5D546 /* CSSDKOCDemo.entitlements */,
+				9698A32E29A7805900C8DB2C /* Support.bundle */,
+				96CCD575288FA283001A4E26 /* AppDelegate.h */,
+				96CCD576288FA283001A4E26 /* AppDelegate.m */,
+				9698A30D29A770F700C8DB2C /* ViewController.h */,
+				9698A30E29A770F700C8DB2C /* ViewController.m */,
+				9698A30129A76AEA00C8DB2C /* OCTestViewController.h */,
+				9698A30229A76AEA00C8DB2C /* OCTestViewController.m */,
+				96CCD581288FA285001A4E26 /* Assets.xcassets */,
+				9698A30729A76E0500C8DB2C /* Main.storyboard */,
+				96CCD583288FA285001A4E26 /* LaunchScreen.storyboard */,
+				96ADE2A929ACBA3D0087F193 /* Jost-VariableFont_wght.ttf */,
+				96CCD586288FA285001A4E26 /* Info.plist */,
+				96CCD587288FA285001A4E26 /* main.m */,
+			);
+			path = CSSDKOCDemo;
+			sourceTree = "<group>";
+		};
+		96CCD590288FA285001A4E26 /* CSSDKOCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				96CCD591288FA285001A4E26 /* CSSDKOCDemoTests.m */,
+			);
+			path = CSSDKOCDemoTests;
+			sourceTree = "<group>";
+		};
+		96CCD59A288FA285001A4E26 /* CSSDKOCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96CCD59B288FA285001A4E26 /* CSSDKOCDemoUITests.m */,
+				96CCD59D288FA285001A4E26 /* CSSDKOCDemoUITestsLaunchTests.m */,
+			);
+			path = CSSDKOCDemoUITests;
+			sourceTree = "<group>";
+		};
+		E612D3DBE3E2F027CFAAED2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCA72CD40E8B18CBD0EE6E11 /* Pods-CSSDKOCDemo.debug.xcconfig */,
+				F206E8BEBA8CB84C40AA5CAF /* Pods-CSSDKOCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../CrazySnakeSDK/Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CCD571288FA283001A4E26 /* CSSDKOCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CCD5A1288FA285001A4E26 /* Build configuration list for PBXNativeTarget "CSSDKOCDemo" */;
+			buildPhases = (
+				AD7CD50A16B9FE863BCF9E5D /* [CP] Check Pods Manifest.lock */,
+				96CCD56E288FA283001A4E26 /* Sources */,
+				96CCD56F288FA283001A4E26 /* Frameworks */,
+				96CCD570288FA283001A4E26 /* Resources */,
+				A1F24013484F0AA12DC8C03F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSSDKOCDemo;
+			productName = CSSDKOCDemo;
+			productReference = 96CCD572288FA283001A4E26 /* CSSDKOCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96CCD58C288FA285001A4E26 /* CSSDKOCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CCD5A4288FA285001A4E26 /* Build configuration list for PBXNativeTarget "CSSDKOCDemoTests" */;
+			buildPhases = (
+				96CCD589288FA285001A4E26 /* Sources */,
+				96CCD58A288FA285001A4E26 /* Frameworks */,
+				96CCD58B288FA285001A4E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CCD58F288FA285001A4E26 /* PBXTargetDependency */,
+			);
+			name = CSSDKOCDemoTests;
+			productName = CSSDKOCDemoTests;
+			productReference = 96CCD58D288FA285001A4E26 /* CSSDKOCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96CCD596288FA285001A4E26 /* CSSDKOCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CCD5A7288FA285001A4E26 /* Build configuration list for PBXNativeTarget "CSSDKOCDemoUITests" */;
+			buildPhases = (
+				96CCD593288FA285001A4E26 /* Sources */,
+				96CCD594288FA285001A4E26 /* Frameworks */,
+				96CCD595288FA285001A4E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CCD599288FA285001A4E26 /* PBXTargetDependency */,
+			);
+			name = CSSDKOCDemoUITests;
+			productName = CSSDKOCDemoUITests;
+			productReference = 96CCD597288FA285001A4E26 /* CSSDKOCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CCD56A288FA283001A4E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = PS;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					96CCD571288FA283001A4E26 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					96CCD58C288FA285001A4E26 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96CCD571288FA283001A4E26;
+					};
+					96CCD596288FA285001A4E26 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96CCD571288FA283001A4E26;
+					};
+				};
+			};
+			buildConfigurationList = 96CCD56D288FA283001A4E26 /* Build configuration list for PBXProject "CSSDKOCDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CCD569288FA283001A4E26;
+			productRefGroup = 96CCD573288FA283001A4E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CCD571288FA283001A4E26 /* CSSDKOCDemo */,
+				96CCD58C288FA285001A4E26 /* CSSDKOCDemoTests */,
+				96CCD596288FA285001A4E26 /* CSSDKOCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CCD570288FA283001A4E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9698A30929A76E0500C8DB2C /* Main.storyboard in Resources */,
+				96CCD585288FA285001A4E26 /* LaunchScreen.storyboard in Resources */,
+				96CCD582288FA285001A4E26 /* Assets.xcassets in Resources */,
+				9698A32F29A7805900C8DB2C /* Support.bundle in Resources */,
+				96ADE2AA29ACBA3D0087F193 /* Jost-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CCD58B288FA285001A4E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CCD595288FA285001A4E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1F24013484F0AA12DC8C03F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSSDKOCDemo/Pods-CSSDKOCDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSSDKOCDemo/Pods-CSSDKOCDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSSDKOCDemo/Pods-CSSDKOCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7CD50A16B9FE863BCF9E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSSDKOCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CCD56E288FA283001A4E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9698A30329A76AEA00C8DB2C /* OCTestViewController.m in Sources */,
+				96CCD577288FA283001A4E26 /* AppDelegate.m in Sources */,
+				96CCD588288FA285001A4E26 /* main.m in Sources */,
+				9698A30F29A770F700C8DB2C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CCD589288FA285001A4E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CCD592288FA285001A4E26 /* CSSDKOCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CCD593288FA285001A4E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CCD59E288FA285001A4E26 /* CSSDKOCDemoUITestsLaunchTests.m in Sources */,
+				96CCD59C288FA285001A4E26 /* CSSDKOCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96CCD58F288FA285001A4E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CCD571288FA283001A4E26 /* CSSDKOCDemo */;
+			targetProxy = 96CCD58E288FA285001A4E26 /* PBXContainerItemProxy */;
+		};
+		96CCD599288FA285001A4E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CCD571288FA283001A4E26 /* CSSDKOCDemo */;
+			targetProxy = 96CCD598288FA285001A4E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9698A30729A76E0500C8DB2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9698A30829A76E0500C8DB2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96CCD583288FA285001A4E26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CCD584288FA285001A4E26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CCD59F288FA285001A4E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96CCD5A0288FA285001A4E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CCD5A2288FA285001A4E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA72CD40E8B18CBD0EE6E11 /* Pods-CSSDKOCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CSSDKOCDemo/CSSDKOCDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5Q5WNVVVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSSDKOCDemo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "《Crazy》想要访问您的相册，用以保存二维码。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "《Crazy》想要访问您的相册，用以发布作品。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = " --generate-entitlement-der";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = " --generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazy.CrazyWallet.test1423;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96CCD5A3288FA285001A4E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F206E8BEBA8CB84C40AA5CAF /* Pods-CSSDKOCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CSSDKOCDemo/CSSDKOCDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5Q5WNVVVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSSDKOCDemo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "《Crazy》想要访问您的相册，用以保存二维码。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "《Crazy》想要访问您的相册，用以发布作品。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = " --generate-entitlement-der";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = " --generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazy.CrazyWallet.test1423;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96CCD5A5288FA285001A4E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LC4L632Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS.CSSDKOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSSDKOCDemo.app/CSSDKOCDemo";
+			};
+			name = Debug;
+		};
+		96CCD5A6288FA285001A4E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LC4L632Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS.CSSDKOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSSDKOCDemo.app/CSSDKOCDemo";
+			};
+			name = Release;
+		};
+		96CCD5A8288FA285001A4E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LC4L632Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS.CSSDKOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSSDKOCDemo;
+			};
+			name = Debug;
+		};
+		96CCD5A9288FA285001A4E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LC4L632Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS.CSSDKOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSSDKOCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CCD56D288FA283001A4E26 /* Build configuration list for PBXProject "CSSDKOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CCD59F288FA285001A4E26 /* Debug */,
+				96CCD5A0288FA285001A4E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CCD5A1288FA285001A4E26 /* Build configuration list for PBXNativeTarget "CSSDKOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CCD5A2288FA285001A4E26 /* Debug */,
+				96CCD5A3288FA285001A4E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CCD5A4288FA285001A4E26 /* Build configuration list for PBXNativeTarget "CSSDKOCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CCD5A5288FA285001A4E26 /* Debug */,
+				96CCD5A6288FA285001A4E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CCD5A7288FA285001A4E26 /* Build configuration list for PBXNativeTarget "CSSDKOCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CCD5A8288FA285001A4E26 /* Debug */,
+				96CCD5A9288FA285001A4E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CCD56A288FA283001A4E26 /* Project object */;
+}

@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  Platform
+
+  Created by Lee on 2021/7/2.
+  
+*/
+
+//MARK: helpcenter
+"hc_TokenStake" = "1 On NFT Staking you can choose single or set staking\n2 There will be additional quality bonuses according to the quality and quantity of the selected NFTs when doing set staking\n  2.1 When there are 3 NFTs of different qualities in a Stake set, an additional 20 hash power bonus can be obtained\n  2.2  When there are 4 NFTs of different qualities in a Stake set, an additional 50 hash power bonus can be obtained\n  2.1 When there are 5 NFTs of different qualities in a Stake set, an additional 150 hash power bonus can be obtained\n  2.2  When there are 6 NFTs of different qualities in a Stake set, an additional 500 hash power bonus can be obtained\n3 The income from NFT staking will be distributed according to the proportion between your personal hash power  the total hash pwoer of the pool\n4 The number of daily staking rewards is determined by two factors. Rewards = the total hash power of NFTs staked (affects basic rewards) + platform game activity (affects additional rewards)\n5 The total hash power of NFT staking affects the number of basic rewards:\n0-----------100000 total hash will provide 6000 $Snake daily\n100001------200000 total hash will provide 10000 $Snake daily rewards\n200001------300000 total hash will provide  14000 $Snake daily rewards\n300001------500000 total hash will provide  22000 $Snake daily rewards\n500001------750000 total hash will provide  32000 $Snake daily rewards\n750001------1000000 total hash will provide  40000 $Snake daily rewards\n1000001-----3000000 total hash will provide  124000 $Snake daily rewards\n3000001-----6000000 total hash will provide  232000 $Snake daily rewards\n6000001-----10000000 total hash will provide  358000 $Snake daily rewards\n10000001+----unlimited basic rewards 500000 $Snake\n6. Platform game activity affects additional rewards: the higher the activity, the more additional rewards";
+
+//MARK: Common
+"No data" = "No data";
+"Request failed" = "Request failed";
+"Cancel" = "Cancel";
+"Got it" = "Got it";
+"Pull down to refresh" = "Pull down to refresh";
+"Release to refresh" = "Release to refresh";
+"Loading..." = "Loading...";
+"refresh_footer_loading" = "Loading more data...";
+"refresh_footer_no_more_data" = "No more data";
+
+"Settings" = "Settings";
+"Change Language" = "Change Language";
+"Help Center" = "Help Center";
+"User Service Agreement" = "User Service Agreement";
+"Privace Policy" = "Privace Policy";
+
+//MARK: profile
+"profile_nft_all" = "All";
+"profile_nft_common" = "Common";
+"profile_nft_good" = "Good";
+"profile_nft_excellent" = "Excellent";
+"profile_nft_rare" = "Rare";
+"profile_nft_epic" = "Epic";
+"profile_nft_legendary" = "Legendary";
+
+"nft_attribute_quality" = "Quality";
+"nft_attribute_power" = "Hash Power";
+"nft_attribute_strengthen" = "Strengthen";
+"nft_attribute_set" = "Set";
